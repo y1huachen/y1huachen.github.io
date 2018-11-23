@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-09T16:36:39.274Z</updated>
+  <updated>2018-11-23T02:39:35.986Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何把更新后的项目重新传到github上</title>
+    <link href="http://yoursite.com/2018/11/23/%E5%A6%82%E4%BD%95%E6%8A%8A%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E9%A1%B9%E7%9B%AE%E9%87%8D%E6%96%B0%E4%BC%A0%E5%88%B0github%E4%B8%8A/"/>
+    <id>http://yoursite.com/2018/11/23/如何把更新后的项目重新传到github上/</id>
+    <published>2018-11-23T02:31:26.000Z</published>
+    <updated>2018-11-23T02:39:35.986Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.在本地的git仓库把你更新好的项目拷到下面然后打开命令行</p><p><img src="/2018/11/23/如何把更新后的项目重新传到github上/20180528205558250.jpg" alt=".git同级目录"></p><p>２．使用下面命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;本次更新的说明&quot;</span><br><span class="line">git pull origin master #先拉下远程项目，自动合并</span><br><span class="line">git push -u origin master #再上传</span><br></pre></td></tr></table></figure><p>如遇以下状况，按图中步骤解决即可。</p><p><img src="/2018/11/23/如何把更新后的项目重新传到github上/20181123102107.png" alt="出现对请求合并的解释的cmd框,自行百度即可"></p><p>成功则如图</p><p><img src="/2018/11/23/如何把更新后的项目重新传到github上/20181123101643.png" alt="上传成功显示"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.在本地的git仓库把你更新好的项目拷到下面然后打开命令行&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/11/23/如何把更新后的项目重新传到github上/20180528205558250.jpg&quot; alt=&quot;.git同级目录&quot;&gt;&lt;/p&gt;
+&lt;p&gt;２．使用下面命令&lt;/
+      
+    
+    </summary>
+    
+      <category term="初入茅庐" scheme="http://yoursite.com/categories/%E5%88%9D%E5%85%A5%E8%8C%85%E5%BA%90/"/>
+    
+    
+      <category term="node.js" scheme="http://yoursite.com/tags/node-js/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>测试访问量文章</title>
