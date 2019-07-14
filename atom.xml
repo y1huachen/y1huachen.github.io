@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-14T08:18:32.681Z</updated>
+  <updated>2019-07-14T08:26:13.205Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/07/14/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/"/>
     <id>http://yoursite.com/2019/07/14/Java编程思想读书记录/</id>
     <published>2019-07-14T07:32:39.000Z</published>
-    <updated>2019-07-14T08:18:32.681Z</updated>
+    <updated>2019-07-14T08:26:13.205Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Thinking-in-Java"><a href="#Thinking-in-Java" class="headerlink" title="Thinking in Java"></a>Thinking in Java</h1><h3 id="一、对象导论"><a href="#一、对象导论" class="headerlink" title="一、对象导论"></a>一、对象导论</h3><ul><li>#####继承</li></ul><p>is-a、is-like-a</p><p>is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类</p><p>is-like-a：导出类扩展接口，它可以替代基类，却不能完美替代，基类无法访问新添加的方法</p><ul><li><h5 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h5></li></ul><p>对象依据自身的具体类型来执行恰当的代码</p><p>后期绑定（动态绑定）：当向对象发送消息时（调用方法）被调用的代码直到运行时才能确实</p><ul><li><h5 id="单根继承"><a href="#单根继承" class="headerlink" title="单根继承"></a>单根继承</h5></li></ul><p>保证所有对象都具备某些功能，对象可以很容易在堆上创建，简化了参数传递，使垃圾回收器的实现变得简单</p><ul><li><h5 id="容器"><a href="#容器" class="headerlink" title="容器"></a>容器</h5></li></ul><p>List、Map、Set、队列、树、堆栈等</p><ul><li><h5 id="参数化类型"><a href="#参数化类型" class="headerlink" title="参数化类型"></a>参数化类型</h5></li></ul><p>向上转型：泛化，通常是安全的</p><p>向下转型：危险，容易出现异常</p><p>定制容器，避免向下转型，</p><p>范型</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;Shape&gt; shapes = new ArrayList&lt;&gt;();</span><br></pre></td></tr></table></figure><ul><li>#####对象的创建与生命期</li></ul><p>使用new关键字在堆中动态创建</p><p>需要大量时间在堆中分配存储空间，但当对象变得复杂，这部分时间开销又可以忽略</p><p>编译器无法确定生命周期，C++中容易内存泄漏，Java垃圾回收器可以避免这个问题</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Thinking-in-Java"><a href="#Thinking-in-Java" class="headerlink" title="Thinking in Java"></a>Thinking in Java</h1><h3 id="一、对象导论"><a href="#一、对象导论" class="headerlink" title="一、对象导论"></a>一、对象导论</h3><ul><li><h5 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h5></li></ul><p>is-a、is-like-a</p><p>is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类</p><p>is-like-a：导出类扩展接口，它可以替代基类，却不能完美替代，基类无法访问新添加的方法</p><ul><li><h5 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h5></li></ul><p>对象依据自身的具体类型来执行恰当的代码</p><p>后期绑定（动态绑定）：当向对象发送消息时（调用方法）被调用的代码直到运行时才能确实</p><ul><li><h5 id="单根继承"><a href="#单根继承" class="headerlink" title="单根继承"></a>单根继承</h5></li></ul><p>保证所有对象都具备某些功能，对象可以很容易在堆上创建，简化了参数传递，使垃圾回收器的实现变得简单</p><ul><li><h5 id="容器"><a href="#容器" class="headerlink" title="容器"></a>容器</h5></li></ul><p>List、Map、Set、队列、树、堆栈等</p><ul><li><h5 id="参数化类型"><a href="#参数化类型" class="headerlink" title="参数化类型"></a>参数化类型</h5></li></ul><p>向上转型：泛化，通常是安全的</p><p>向下转型：危险，容易出现异常</p><p>定制容器，避免向下转型，</p><p>范型</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;Shape&gt; shapes = new ArrayList&lt;&gt;();</span><br></pre></td></tr></table></figure><ul><li><h5 id="对象的创建与生命期"><a href="#对象的创建与生命期" class="headerlink" title="对象的创建与生命期"></a>对象的创建与生命期</h5></li></ul><p>使用new关键字在堆中动态创建</p><p>需要大量时间在堆中分配存储空间，但当对象变得复杂，这部分时间开销又可以忽略</p><p>编译器无法确定生命周期，C++中容易内存泄漏，Java垃圾回收器可以避免这个问题</p>]]></content>
     
     <summary type="html">
     

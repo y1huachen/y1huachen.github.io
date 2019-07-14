@@ -108,18 +108,18 @@
 
 
 
-  <meta name="description" content="Thinking in Java一、对象导论 #####继承  is-a、is-like-a is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类 is-like-a：导出类扩展接口，它可以替代基类，却不能完美替代，基类无法访问新添加的方法  多态  对象依据自身的具体类型来执行恰当的代码 后期绑定（动态绑定）：当向对象发送消息时（调用方法）被调用的代码直到运行时才能确实  单根继承  保">
+  <meta name="description" content="Thinking in Java一、对象导论 继承  is-a、is-like-a is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类 is-like-a：导出类扩展接口，它可以替代基类，却不能完美替代，基类无法访问新添加的方法  多态  对象依据自身的具体类型来执行恰当的代码 后期绑定（动态绑定）：当向对象发送消息时（调用方法）被调用的代码直到运行时才能确实  单根继承  保证所有对象">
 <meta name="keywords" content="java,编程思想">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java编程思想读书记录">
 <meta property="og:url" content="http://yoursite.com/2019/07/14/Java编程思想读书记录/index.html">
 <meta property="og:site_name" content="尘埃之所">
-<meta property="og:description" content="Thinking in Java一、对象导论 #####继承  is-a、is-like-a is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类 is-like-a：导出类扩展接口，它可以替代基类，却不能完美替代，基类无法访问新添加的方法  多态  对象依据自身的具体类型来执行恰当的代码 后期绑定（动态绑定）：当向对象发送消息时（调用方法）被调用的代码直到运行时才能确实  单根继承  保">
+<meta property="og:description" content="Thinking in Java一、对象导论 继承  is-a、is-like-a is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类 is-like-a：导出类扩展接口，它可以替代基类，却不能完美替代，基类无法访问新添加的方法  多态  对象依据自身的具体类型来执行恰当的代码 后期绑定（动态绑定）：当向对象发送消息时（调用方法）被调用的代码直到运行时才能确实  单根继承  保证所有对象">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-14T08:18:32.681Z">
+<meta property="og:updated_time" content="2019-07-14T08:26:13.205Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java编程思想读书记录">
-<meta name="twitter:description" content="Thinking in Java一、对象导论 #####继承  is-a、is-like-a is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类 is-like-a：导出类扩展接口，它可以替代基类，却不能完美替代，基类无法访问新添加的方法  多态  对象依据自身的具体类型来执行恰当的代码 后期绑定（动态绑定）：当向对象发送消息时（调用方法）被调用的代码直到运行时才能确实  单根继承  保">
+<meta name="twitter:description" content="Thinking in Java一、对象导论 继承  is-a、is-like-a is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类 is-like-a：导出类扩展接口，它可以替代基类，却不能完美替代，基类无法访问新添加的方法  多态  对象依据自身的具体类型来执行恰当的代码 后期绑定（动态绑定）：当向对象发送消息时（调用方法）被调用的代码直到运行时才能确实  单根继承  保证所有对象">
 
 
 
@@ -438,7 +438,7 @@
                 
               
 
-              <time title="创建时间：2019-07-14 15:32:39 / 修改时间：16:18:32" itemprop="dateCreated datePublished" datetime="2019-07-14T15:32:39+08:00">2019-07-14</time>
+              <time title="创建时间：2019-07-14 15:32:39 / 修改时间：16:26:13" itemprop="dateCreated datePublished" datetime="2019-07-14T15:32:39+08:00">2019-07-14</time>
             
 
             
@@ -513,7 +513,7 @@
 
       
         <h1 id="Thinking-in-Java"><a href="#Thinking-in-Java" class="headerlink" title="Thinking in Java"></a>Thinking in Java</h1><h3 id="一、对象导论"><a href="#一、对象导论" class="headerlink" title="一、对象导论"></a>一、对象导论</h3><ul>
-<li>#####继承</li>
+<li><h5 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h5></li>
 </ul>
 <p>is-a、is-like-a</p>
 <p>is-a：导出类与基类有着相同的接口，导出类可以纯粹替代基类</p>
@@ -540,7 +540,7 @@
 <p>范型</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;Shape&gt; shapes = new ArrayList&lt;&gt;();</span><br></pre></td></tr></table></figure>
 <ul>
-<li>#####对象的创建与生命期</li>
+<li><h5 id="对象的创建与生命期"><a href="#对象的创建与生命期" class="headerlink" title="对象的创建与生命期"></a>对象的创建与生命期</h5></li>
 </ul>
 <p>使用new关键字在堆中动态创建</p>
 <p>需要大量时间在堆中分配存储空间，但当对象变得复杂，这部分时间开销又可以忽略</p>
@@ -774,7 +774,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Thinking-in-Java"><span class="nav-number">1.</span> <span class="nav-text">Thinking in Java</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、对象导论"><span class="nav-number">1.0.1.</span> <span class="nav-text">一、对象导论</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#多态"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">多态</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#单根继承"><span class="nav-number">1.0.1.0.2.</span> <span class="nav-text">单根继承</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#容器"><span class="nav-number">1.0.1.0.3.</span> <span class="nav-text">容器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#参数化类型"><span class="nav-number">1.0.1.0.4.</span> <span class="nav-text">参数化类型</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Thinking-in-Java"><span class="nav-number">1.</span> <span class="nav-text">Thinking in Java</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、对象导论"><span class="nav-number">1.0.1.</span> <span class="nav-text">一、对象导论</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#继承"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">继承</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#多态"><span class="nav-number">1.0.1.0.2.</span> <span class="nav-text">多态</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#单根继承"><span class="nav-number">1.0.1.0.3.</span> <span class="nav-text">单根继承</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#容器"><span class="nav-number">1.0.1.0.4.</span> <span class="nav-text">容器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#参数化类型"><span class="nav-number">1.0.1.0.5.</span> <span class="nav-text">参数化类型</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#对象的创建与生命期"><span class="nav-number">1.0.1.0.6.</span> <span class="nav-text">对象的创建与生命期</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
